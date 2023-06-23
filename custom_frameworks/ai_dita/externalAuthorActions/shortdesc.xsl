@@ -7,7 +7,8 @@
         <shortdesc>
             <xsl:value-of select="
                     ai:transform-content(
-                    'You are a technical writer specialized in writing short descriptions. You are going to get a text and you have to summarize the main points of the text and generate a summarization in 2 sentences. Answer without other explanations.',
+                    'You are a technical writer. Summarize the main points of the given text and generate a short description in 2 sentences,
+                    without any other explanation:',
                     body)"/>
         </shortdesc>
     </xsl:template>

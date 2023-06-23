@@ -1,0 +1,7 @@
+shortdesc:empty:after {
+    display:block;
+    content: oxy_button(
+                 actionID, 'addShortdesc',
+                 showIcon, true
+             );
+}
