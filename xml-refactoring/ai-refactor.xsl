@@ -9,9 +9,9 @@
         </xsl:copy>
     </xsl:template>
     
-    <xsl:template match="shortdesc[count(tokenize(.,'\s+')) > 10]">
+    <xsl:template match="shortdesc[count(tokenize(.,'\s+')) > 30]">
         <shortdesc>
-            <xsl:value-of select="ai:transform-content('Reformulate phrase to be less that 10 words', .)"/>
+            <xsl:value-of select="ai:transform-content('Reformulate phrase to be less that 30 words', .)"/>
         </shortdesc>
     </xsl:template>
 </xsl:stylesheet>
