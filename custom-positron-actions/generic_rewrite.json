@@ -37,7 +37,7 @@
             }
         ],
         "parameters": {
-            "engine": {"name": "gpt-3.5-turbo"},
+            "engine": {"name": "gpt-3.5-turbo-0301"},
             "temperature": 0.7,
             "max_tokens": 2048,
             "stop": ["\n\n\n"]
